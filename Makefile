@@ -18,7 +18,7 @@ help:
 # ----- INSTALLER -----
 install:
 	chmod +x tools/installer.sh
-	tools/installer.sh
+	sh tools/installer.sh
 
 # ----- GIT -----
 commit:

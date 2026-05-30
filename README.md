@@ -51,15 +51,16 @@ Uma configuração **completa e profissional** de Neovim para desenvolvimento em
 # 1. Backup da config atual (se existir)
 mv ~/.config/nvim ~/.config/nvim.bak
 
-# 2. Clonar ou copiar esta config
+# 2. Clonar esta config
 git clone <repo> ~/.config/nvim
-# OU
-cp -r ./nvim ~/.config/nvim
 
-# 3. Abrir Neovim (instala plugins automaticamente)
+# 3. Instalar requerimentos
+make install
+
+# 4. Abrir Neovim (instala plugins automaticamente)
 nvim
 
-# 4. Dentro do Neovim, execute:
+# 5. Dentro do Neovim, execute:
 :TSUpdate       # Instalar parsers treesitter
 :Mason          # Instalar rust-analyzer, codelldb, etc.
 ```
@@ -75,23 +76,23 @@ nvim
 
 > A tecla \<leader\> é o Space
 
-| Atalho | Ação |
-|--------|------|
-| `<Space>ff` | Buscar arquivos |
-| `<Space>fg` | Buscar no projeto (grep) |
-| `<Space>rr` | Rust runnables |
-| `<Space>rd` | Rust debuggables |
-| `<Space>re` | Expandir macro |
-| `<F5>` | Debug: continuar |
-| `<F10>` | Debug: step over |
-| `<Space>db` | Toggle breakpoint |
-| `<Space>xx` | Painel de diagnósticos |
-| `-` | Abrir explorador de arquivos |
-| `<C-\>` | Terminal flutuante |
-| `<Space>rn` | Renomear símbolo |
-| `gd` | Ir para definição |
-| `gr` | Referências |
-| `K` | Documentação |
+| Atalho      | Ação                         |
+|-------------|------------------------------|
+| `<Space>ff` | Buscar arquivos              |
+| `<Space>fg` | Buscar no projeto (grep)     |
+| `<Space>rr` | Rust runnables               |
+| `<Space>rd` | Rust debuggables             |
+| `<Space>re` | Expandir macro               |
+| `<F5>`      | Debug: continuar             |
+| `<F10>`     | Debug: step over             |
+| `<Space>db` | Toggle breakpoint            |
+| `<Space>xx` | Painel de diagnósticos       |
+| `-`         | Abrir explorador de arquivos |
+| `<C-\>`     | Terminal flutuante           |
+| `<Space>rn` | Renomear símbolo             |
+| `gd`        | Ir para definição            |
+| `gr`        | Referências                  |
+| `K`         | Documentação                 |
 
 ## 🆘 Comandos Úteis
 

@@ -1,0 +1,22 @@
+{
+  "recommendations": [
+    "sumneko.lua",
+    "johnnymorganz.stylua",
+    "fill-labs.dependi",
+    "llvm-vs-code-extensions.lldb-dap",
+    "ms-vscode.makefile-tools",
+    "chadalen.vscode-jetbrains-icon-theme",
+    "esbenp.prettier-vscode",
+    "wayou.vscode-todo-highlight",
+    "aaron-bond.better-comments",
+    "editorconfig.editorconfig",
+    "ardonplay.vscode-jetbrains-icon-theme",
+    "miguelsolorio.symbols", // Symbols Icons
+    "shortall.html-liquid-preview",
+    "redhat.vscode-yaml", // Front Matter YAML
+    "yzhang.markdown-all-in-one", // Markdown with shortcuts and preview
+    "davidanson.vscode-markdownlint",
+    "gruntfuggly.todo-tree",
+    "zainchen.json",
+  ]
+}

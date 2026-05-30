@@ -1,0 +1,18 @@
+# Forces all text files in the repository to use LF.
+* text=auto eol=lf
+
+# Ignore editor config
+.vscode/** linguist-vendored
+
+# Ignore front-end / misc
+*.html linguist-vendored
+*.js linguist-vendored
+*.sh linguist-vendored
+*.toml linguist-vendored
+Makefile linguist-vendored
+
+# Lua Force as the main
+*.lua linguist-detectable
+
+# Extra guarantee
+*.rs linguist-language=Lua
